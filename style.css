@@ -27,6 +27,13 @@ body {
     transform: rotate(-5deg);
 }
 
+.top-bottom-border{
+    border-top-color:#a9444c;
+    border-top-width:thick;
+    border-bottom-color:#a9444c;
+    border-bottom-width:thick;
+}
+
 
 /***********************************************************************
  *  Nav Bar
@@ -45,12 +52,7 @@ body {
     font-size: 0.7em;
 }
 
-.top-bottom-border{
-    border-top-color:#a9444c;
-    border-top-width:thick;
-    border-bottom-color:#a9444c;
-    border-bottom-width:thick;
-}
+
 
 @media only screen and (max-width: 600px) {
     .main-nav {
