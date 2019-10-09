@@ -43,6 +43,9 @@ body {
     list-style: none;
     margin: 0;
     font-size: 0.7em;
+}
+
+.top-bottom-border{
     border-top-color:#a9444c;
     border-top-width:thick;
     border-bottom-color:#a9444c;
