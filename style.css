@@ -118,8 +118,8 @@ a {
 
 .box {
     background-color: #444;
-    /* changed from 130px to 100px*/
-    padding: 100px;
+    /* changed back to 130px */
+    padding: 130px;
     margin: 20px;
 }
 
