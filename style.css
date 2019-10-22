@@ -80,7 +80,8 @@ a {
  *  Cover
  **********************************************************************/
 #cover_title{
-    color: #a9444c;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 10px #a9444c;
 }
 
 .cover_background{
