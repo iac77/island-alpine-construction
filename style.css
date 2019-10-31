@@ -4,6 +4,12 @@ body {
     font-family: 'Play', sans-serif;
 }
 
+/*pointer will show on all clickable components*/
+button {
+	cursor: pointer;
+}
+
+
 .zone {
     /*padding:30px 50px;*/
     /*cursor:pointer;*/
