@@ -133,17 +133,10 @@ a {
     margin: 20px;
 }
 
-/*
+/*select all img that have parent .box*/
 .box > img {
     width: 100%;
 }
-*/
-
-/*
-img a {
-    width: 100%;
-}
-*/
 
 /***********************************************************************
  *  Footer
