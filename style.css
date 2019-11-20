@@ -77,7 +77,8 @@ li {
 }
 
 a {
-    color: #f5f5f6;
+    /*color: #f5f5f6;*/
+    color: #0071be; /*blue from logo*/	
     text-decoration: none;
 }
     
