@@ -15,22 +15,54 @@
 
 <body>
 <nav class="zone black sticky top-bottom-border">
-  <ul class="main-nav">
-    <li>
-	    <a href="">
-	  	<img src = "favicon.png" style="width: 60px; height: 60px;">
-	    </a>
-	  </li>
-	  
-	  
-    <li>
-	    <a href="">About</a>
-    </li>
-    
-	  <li><a href=""></a>Services</li>
-    <li><a href=""></a>Our Team</li>
-    <li class="push"><a href=""></a>Contact Us</li>
-  </ul>  
+
+<div class="navbar">
+  <a href="">
+	<img src = "favicon.png" style="width: 60px; height: 60px;">
+  </a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Our Team</a>
+  <div class="dropdown">
+    <button class="dropbtn">Projects
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="projects/project1.html">New House, Yellow Point</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+      <a href="#">Link 5</a>
+      <a href="#">Link 6</a>
+    </div>
+  </div>
+  <div class="topnav-right">  
+  	<a href="#">Contact Us</a>
+  </div>
+</div> 
+
+
+<!-- original navbar
+  <div class="navbar">
+  	<ul class="main-nav">
+    	<li>
+	    	<a href="">
+	  		<img src = "favicon.png" style="width: 60px; height: 60px;">
+	    	</a>
+	   	</li>
+		 <ul>
+    		<li><a href="#">About</a></li>
+    		<li><a href="#">Services</a></li>
+    		<li><a href="#">Our Team</a></li>
+  		</ul>
+	  	  
+    	<li><a href="">About</a></li>
+		<li><a href=""></a>Services</li>
+    	<li><a href=""></a>Our Team</li>
+    	<li class="push"><a href=""></a>Contact Us</li>
+  	</ul>
+  </div>  
+-->
 </nav>
 
 <div class="container zone cover_background">
