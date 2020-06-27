@@ -1,8 +1,16 @@
 <!DOCTYPE html>
-<html>
+<!-- lang="en" required for bootstrap 4-->
+<html lang="en">
 <head>
+
 	<title>Island Alpine Construction</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Original Stylesheet -->
+	<!-- Run and compile sass scss file to css using node-->
+	<!-- node-sass compiles sass to css by running npm run scss-->
+	<!-- https://thecoderain.blogspot.com/2019/12/run-and-compile-sass-scss-file-to-css.html -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css"> -->
+	
 	<!-- Favicon -->
 	<link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
 	
@@ -11,110 +19,87 @@
 	
 	<!-- Google Fonts Frank Ruhl Libre by Yanek lontef-->	
 	<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">	
+
+	<!-- Bootstrap 4-->
+
+	<!-- correct character set for bootstrap 4-->
+	<meta charset="utf-8">
+	<!--To ensure proper rendering and touch zooming on mobile devices-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<!-- Style the background image-->
+	<style>
+		body {
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.cover-page-image {
+			background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+			url("photos/custom-construction/new-house-6.jpg");
+			background-color: rgb(30, 72, 210);
+			height: 800px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+
+		.cover-page-text {
+			text-align: center;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color:whitesmoke;
+			text-shadow: 5px 5px 10px #0071be;
+			font-family: 'Frank Ruhl Libre', serif;
+		}
+
+	</style>
+
 </head>
 
-<body>
-<nav class="zone black sticky top-bottom-border">
-
-<div class="navbar">
-  <a href="">
-	<img src = "favicon.png" style="width: 60px; height: 60px;">
-  </a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Our Team</a>
-  <div class="dropdown">
-    <button class="dropbtn">Projects
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="projects/project1.html">New House, Yellow Point</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-      <a href="#">Link 4</a>
-      <a href="#">Link 5</a>
-      <a href="#">Link 6</a>
-    </div>
-  </div>
-  <div class="topnav-right">  
-  	<a href="#">Contact Us</a>
-  </div>
-</div> 
-
-
-<!-- original navbar
-  <div class="navbar">
-  	<ul class="main-nav">
-    	<li>
-	    	<a href="">
-	  		<img src = "favicon.png" style="width: 60px; height: 60px;">
-	    	</a>
-	   	</li>
-		 <ul>
-    		<li><a href="#">About</a></li>
-    		<li><a href="#">Services</a></li>
-    		<li><a href="#">Our Team</a></li>
-  		</ul>
-	  	  
-    	<li><a href="">About</a></li>
-		<li><a href=""></a>Services</li>
-    	<li><a href=""></a>Our Team</li>
-    	<li class="push"><a href=""></a>Contact Us</li>
-  	</ul>
-  </div>  
--->
-</nav>
-
-<div class="container zone cover_background">
-	<!-- <img class="cover rotateimg90" src="./business_card_front.jpg">-->
-	<h1 id="cover_title"><strong>ISLAND ALPINE CONSTRUCTION</strong></h1>
-	
-	</div>
-
-<div  class="zone blue grid-wrapper">
-  <a href="projects/project1.html" >
-	  <figure class="box">
-		  <img src="./photos/projects/house_1/IMG_0852.jpg">
-	  </figure>
- </a>
-
- <a href="projects/project2.html" >
-	  <figure class="box">
-		  <img src="./photos/projects/house_2/IMG_3544.jpg">
-	  </figure>
- </a>	
- <a href="projects/project3.html" >
-	  <figure class="box">
-		  <img src="./photos/projects/horse_barn/horse_barn_5.jpg">
-	  </figure>
- </a>
-
- <a href="projects/project4.html" >
-	  <figure class="box">
-		  <img src="./photos/projects/new_roof/new_roof_3.jpg">
-	  </figure>
- </a>
-	
-<a href="projects/project5.html" >
-	  <figure class="box">
-		  <img src="./photos/projects/project5/IMG_2453.jpg">
-	  </figure>
- </a>
-	
-<a href="projects/project6.html" >
-	  <figure class="box">
-		  <img src="./photos/projects/project6/IMG_6156.jpg">
-	  </figure>
- </a>
-	
- 
+<div class="cover-page-image">
+<div class="cover-page-text">
+	<h1 style="font-size: 3.2vw;">ISLAND ALPINE CONSTRUCTION</h1>	
 </div>
 
-<footer class="zone black top-bottom-border">
-	<h5 id="footer_web_designer">Made by Michael Armstrong</h5>
-</footer>
+	
+<!-- -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+<!-- Brand Logo -->
+<a class="navbar-brand" href="index.html">
+	<img src = "favicon.png" style="width: 60px; height: 60px;">
+</a>
 
+<!-- Links -->
+	<ul class="navbar-nav">
+		<li class="nav-item">
+			<a class="nav-link" href="pages/projects.html">Projects</a>
+		</li>
+	</ul>
+		
+	<ul class="navbar-nav ml-auto">
+		<li class="navbar-item">
+			<a class="nav-link" href="pages/contact.html">Contact</a>
+		</li>
+	</ul>
+</nav>
 
+<!-- body-->
 <script type="text/javascript" src="script.js"></script>
+</div>
 </body>
 </html>

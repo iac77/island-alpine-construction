@@ -4,7 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/iac77/island-alpine-construction/issues"
   },
-  "homepage": "https://github.com/iac77/island-alpine-construction#readme"
+  "homepage": "https://github.com/iac77/island-alpine-construction#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
